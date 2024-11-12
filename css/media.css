@@ -54,9 +54,7 @@
 .main-btn button {
 	padding: 8px 21px;
 }
-.meta img {
-	max-width: 250px;
-}
+
 @media (max-width: 650px) {
 	.main img {
 		max-width: 230px;
@@ -71,17 +69,17 @@
 		display: block;
 	}
 }
-@media (max-width: 520px) {
+@media (max-width: 545px) {
 	.main {
 		flex-direction: column-reverse;
 		gap: 40px;
 		align-items: center;
 	}
 	.main img {
-		max-width: 380px;
+		max-width: 410px;
 	}
 	.main-content {
-		max-width: 400px;
+		max-width: 410px;
 		gap: 20px;
 	}
 }
