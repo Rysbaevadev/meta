@@ -54,7 +54,9 @@
 .main-btn button {
 	padding: 8px 21px;
 }
-
+.meta img {
+	max-width: 240px;
+}
 @media (max-width: 650px) {
 	.main img {
 		max-width: 230px;
@@ -72,7 +74,7 @@
 @media (max-width: 545px) {
 	.main {
 		flex-direction: column-reverse;
-		gap: 40px;
+		gap: 30px;
 		align-items: center;
 	}
 	.main img {
@@ -83,6 +85,17 @@
 		gap: 20px;
 	}
 }
+.meta {
+	flex-direction: column;
+	gap: 30px;
+}
+.meta img {
+	max-width: 410px;
+}
+.meta-text {
+	max-width: 410px;
+}
+
 .main-rating {
 	max-width: 80%;
 }
@@ -94,5 +107,10 @@
 @media (max-width: 390px) {
 	.main img {
 		max-width: 280px;
+	}
+}
+@media (max-width: 360px) {
+	.main img {
+		max-width: 240px;
 	}
 }

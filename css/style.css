@@ -37,7 +37,7 @@ button {
 .container {
 	max-width: 1280px;
 	width: 100%;
-	padding-inline: 20px;
+	padding-inline: 40px;
 	margin-inline: auto;
 }
 #header {
@@ -157,7 +157,7 @@ button {
 	}
 	button {
 		background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
-		padding: 15px 30px;
+		padding: 11px 30px;
 	}
 }
 .meta h1 span {
