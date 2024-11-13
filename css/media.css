@@ -1,3 +1,24 @@
+@media (max-width: 1215px) {
+	.work-blok {
+		max-width: 300px;
+	}
+	.work-blok img {
+		max-width: 260px;
+	}
+}
+@media (max-width: 1061px) {
+	.work-blok {
+		max-width: 400px;
+		max-height: 450px;
+	}
+	.work-blok img {
+		max-width: 380px;
+	}
+	.work {
+		gap: 40px;
+	}
+}
+
 @media (max-width: 960px) {
 	.meta img {
 		max-width: 450px;
@@ -19,7 +40,28 @@
 		max-width: 400px;
 		gap: 15px;
 	}
+
+	.work {
+		margin-left: 100px;
+		gap: 45px;
+	}
+	.work-blok {
+		max-width: 270px;
+	}
+	.work-blok img {
+		max-width: 230px;
+	}
 }
+
+@media (max-width: 838px) {
+	.work-blok {
+		max-width: 270px;
+	}
+	.work-blok img {
+		max-width: 200px;
+	}
+}
+
 @media (max-width: 775px) {
 	#main {
 		padding-block: 30px;
@@ -36,13 +78,49 @@
 	.meta-text {
 		max-width: 370px;
 	}
+	.work-blok {
+		max-width: 230px;
+	}
+	.work-btn button {
+		padding: 5px 14px;
+	}
+	.work-title h1 {
+		max-width: 300px;
+		width: 100%;
+		align-items: flex-start;
+	}
+	.work-title p {
+		max-width: 270px;
+	}
 }
 @media (max-width: 705px) {
 	.meta img {
 		max-width: 270px;
 	}
 }
-
+@media (max-width: 687px) {
+	.work .work-blok:nth-child(4) {
+		display: none;
+	}
+	.work .work-blok:nth-child(5) {
+		display: none;
+	}
+	.work .work-blok:nth-child(6) {
+		display: none;
+	}
+	.work-blok {
+		max-width: 400px;
+		padding-right: 30px;
+	}
+	.work-btn {
+		display: flex;
+		gap: 79px;
+		justify-content: space-between;
+	}
+	.work-blok img {
+		max-width: 300px;
+	}
+}
 @media (max-width: 675px) {
 	.main-content {
 		gap: 15px;
@@ -84,6 +162,15 @@
 		max-width: 410px;
 		gap: 20px;
 	}
+	.work {
+		padding-right: 15px;
+	}
+	.work-blok {
+		max-width: 300px;
+	}
+	.work-blok img {
+		max-width: 250px;
+	}
 }
 .meta {
 	flex-direction: column;
@@ -99,14 +186,46 @@
 .main-rating {
 	max-width: 80%;
 }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
+	.work {
+		margin: 0px 50px 0px 0px;
+	}
+}
+
+@media (max-width: 424px) {
 	.main img {
 		max-width: 350px;
+	}
+	.work-blok {
+		max-width: 250px;
+	}
+	.work-blok img {
+		max-width: 200px;
 	}
 }
 @media (max-width: 390px) {
 	.main img {
 		max-width: 280px;
+	}
+	.work-title {
+		text-align: start;
+	}
+	#work .container {
+		padding-inline: 40px;
+	}
+	.work-blok {
+		max-width: 200px;
+		padding-left: 20px;
+	}
+	.work-blok img {
+		max-width: 170px;
+	}
+	.work-btn {
+		gap: 20px;
+	}
+	.work-btn button {
+		font-size: 11px;
+		padding: 7px 20px;
 	}
 }
 @media (max-width: 360px) {
