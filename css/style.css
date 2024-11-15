@@ -203,12 +203,12 @@ button {
 	-webkit-text-fill-color: transparent;
 }
 #work .container {
-	padding-inline: 40px;
+	margin-inline: 20px;
 }
 .work {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 
 	gap: 40px;
 }
@@ -281,3 +281,72 @@ button {
 	max-width: clamp(25rem, 8.75rem + 81.25vw, 73.75rem);
 	padding-bottom: 50px;
 }
+/* footer-start */
+#master {
+	background-color: #090823;
+	padding-block: 70px;
+}
+#master .container {
+	background-color: #090823;
+}
+.master {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+.master-blok h1 {
+	font-size: clamp(1.875rem, 1.458rem + 2.08vw, 3.125rem);
+	background: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.master-blok p {
+	font-size: clamp(0.688rem, 0.542rem + 0.73vw, 1.125rem);
+	font-weight: 200;
+	max-width: 400px;
+	padding-top: 15px;
+}
+.blok-content {
+	display: flex;
+	gap: 60px;
+}
+.master .blok {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	h1 {
+		font-size: clamp(0.75rem, 0.583rem + 0.83vw, 1.25rem);
+	}
+	ul,
+	li {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		color: #fff;
+		font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+		font-weight: 300;
+	}
+}
+.blok-ik {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	p {
+		font-size: clamp(0.688rem, 0.574rem + 0.57vw, 1rem);
+		font-weight: 300;
+		max-width: 230px;
+	}
+}
+.blok-ik h1 {
+	font-size: clamp(0.75rem, 0.583rem + 0.83vw, 1.25rem);
+}
+.blok-btn {
+	display: flex;
+	gap: 16px;
+}
+.blok-btn ion-icon {
+	color: #fff;
+	font-size: 22px;
+}
+
+/* footer-end */
