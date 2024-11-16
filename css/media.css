@@ -38,6 +38,7 @@
 		flex-direction: column;
 		gap: 30px;
 	}
+
 	.blok-content {
 		display: flex;
 		gap: 50px;
@@ -83,8 +84,9 @@
 	.work .work-blok:nth-child(6) {
 		display: none;
 	}
+
 	.work-blok {
-		margin-inline: 20px;
+		/* margin-inline: 20px; */
 	}
 	.work-blok {
 		max-width: 400px;
@@ -144,12 +146,16 @@
 		max-width: 410px;
 		gap: 20px;
 	}
+	.work-title h1 {
+		max-width: 410px;
+	}
 
 	.work-blok {
-		max-width: 300px;
+		max-width: 410px;
+		width: 100%;
 	}
 	.work-blok img {
-		max-width: 220px;
+		width: 100%;
 	}
 	.latest img {
 		max-width: 400px;
@@ -171,9 +177,6 @@
 	}
 }
 @media (max-width: 480px) {
-	.work {
-		margin: 0px 50px 0px 0px;
-	}
 	.latest img {
 		max-width: 320px;
 	}
