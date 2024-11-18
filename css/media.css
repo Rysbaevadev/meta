@@ -38,6 +38,9 @@
 		flex-direction: column;
 		gap: 30px;
 	}
+	.blok-content {
+		display: flex;
+	}
 
 	.blok-content {
 		display: flex;
@@ -133,11 +136,18 @@
 		display: block;
 	}
 }
-@media (max-width: 545px) {
+@media (max-width: 583px) {
 	.main {
 		flex-direction: column-reverse;
 		gap: 30px;
 		align-items: center;
+	}
+	.blok-content {
+		flex-direction: column;
+	}
+	.blokk-1 {
+		display: flex;
+		gap: 40px;
 	}
 	.main img {
 		max-width: 410px;

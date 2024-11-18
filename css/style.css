@@ -64,7 +64,7 @@ button {
 }
 .header nav a {
 	color: #fff;
-	font-family: poppins sans-serif;
+	font-family: Poppins, sans-serif;
 	font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
 }
 /* <main-start */
@@ -170,13 +170,7 @@ button {
 /* meta-end */
 
 /* work-start */
-.work-title {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-}
+
 .work-title {
 	display: flex;
 	flex-direction: column;
@@ -185,6 +179,7 @@ button {
 	padding-block: 50px;
 	width: 100%;
 	text-align: center;
+	gap: 14px;
 
 	h1 {
 		font-size: clamp(1.563rem, 1.354rem + 1.04vw, 2.188rem);
@@ -339,11 +334,16 @@ button {
 		max-width: 230px;
 	}
 }
+.blokk-1 {
+	display: flex;
+	gap: 30px;
+}
 .blok-ik h1 {
 	font-size: clamp(0.75rem, 0.583rem + 0.83vw, 1.25rem);
 }
 .blok-btn {
 	display: flex;
+
 	gap: 16px;
 }
 .blok-btn ion-icon {
